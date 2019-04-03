@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel = "stylesheet" type = "text/css" href = "../css/styles.css"/>
+      <title>Player</title>
+      <link rel="shortcut icon" href="../images/logo.jpg"/>
+   </head>
+   <body>
+      <div id="container">
+	   <button type="button" id="audio"><img src="../images/audioOn.png" id="on"/></button>	 
+         <div id="content">
+            <h1> Please enter your Name and age</h1>
+            <center>
+               <br/> <br/>
+               <div id="playerinfo">
+                  <form name="message" method="get" action="round1.html">
+                     <fieldset>
+                        <br/>
+                        <legend>
+                           <h2>Player info</h2>
+                        </legend>
+                        <br/>
+                        Name: <input type="text" name="name" id="name"/>
+                        <br/>		 <br/>			 
+                        <span class="errors"></span><br/><br/>
+                        Gender: 
+                        <input type="radio" name="gender" value="female"/>	  Female
+                        <input type="radio" name="gender" value="male"/> Male	
+                        <br/> <br/>
+                        <span class="errors"></span><br/>
+                        <button id="submit" type="submit">Proceed To Game</button>
+                     </fieldset>
+                  </form>
+                  <br/>
+               </div>
+            </center>
+            <br/>
+         </div>
+      </div>
+   </body>
+   <script src="../js/validation.js"> </script>
+   <script type="text/javascript" src="../js/audio.js"></script>
+</html>

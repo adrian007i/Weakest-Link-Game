@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel = "stylesheet" type = "text/css" href = "../css/styles.css"/>
+      <link rel="shortcut icon" href="../images/logo.jpg"/>
+      <title>Home</title>
+   </head>
+   <body>
+      <script>
+	  
+
+	  function storages(){
+	  var round=localStorage.getItem("round");
+		if(round != null){
+			if(round=="round1"){
+				document.location="round1.html";
+			}
+			else if(round=="round2"){
+				document.location="round2.html";
+			}
+			else{
+				document.location="round3.html";
+			}
+		}
+	  }window.onload = storages;
+	  
+	  
+	  </script>
+      <div id="container">
+         <button type="button" id="audio"><img src="../images/audioOn.png" id="on"/></button>	 
+         <div id="content" style="margin-top:40%;">
+            <div style="float:left; margin-left:1%;"><a href="playerInfo.html" >Start Game</a></div>
+            <div style="float:right; margin-right:1%;"><a href="rules.html">Rules</a></div>
+         </div>
+      </div>
+   </body>
+   <script type="text/javascript" src="../js/audio.js"></script>
+</html>

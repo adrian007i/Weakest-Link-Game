@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel = "stylesheet" type = "text/css" href = "../css/styles.css"/>
+      <link rel="shortcut icon" href="../images/logo.jpg"/>
+      <title>Round 2</title>
+   </head>
+   <body>
+      <div id="container">
+         <div id="content" style="background-image:url('../images/gameBackground.png'); background-size:cover;">
+            <div id="moneyTree">
+               <br/>
+               <button type="button" id="bank"/><img src="../images/bank.jpg"/></button>
+               <br/><br/><br/>
+               <ul>
+                  <li class="money">$500,000</li>
+                  <li class="money">$125,000 </li>
+                  <li class="money">$75,000 </li>
+                  <li class="money">$10,000 </li>
+                  <li class="money">$1000 </li>
+                  <li class="money" style="background-color:#633234">$0 </li>
+               </ul>
+            </div>
+            <div id="questionArea"  style="padding-top:5%;">
+				<button type="button" id="audio" style="float:right;"><img src="../images/audioOn.png" id="on"/></button>	
+				<br/>
+			
+               <span style="border:solid white; padding:1%; color:white; font-size:30px; " id="bankDisplay">BANK: 0</span>
+               <span style="border:solid white; padding:1%;color:white; font-size:30px; " id="totalDisplay">TOTAL: 0</span>
+               <h1>
+                  <div id="question"  style="padding-top:15%;"></div>
+               </h1>
+               <div id="ans">
+                  <span class="ans"></span><input type="radio" id="ans1" name="answer" value=""/>
+                  <span class="ans"></span><input type="radio" id="ans2" name="answer" value=""/>
+                  <span class="ans"></span><input type="radio" id="ans3" name="answer" value=""/><br/>
+                  <input type="button" id="submit_answer" value="lock In Answer"/>
+               </div>
+               <br/><br/>
+               <span style="color:red; font-size:30px;" id="msg"></span>
+               <h3 id="rem">
+                  Time
+                  <div id="time"></div>
+               </h3>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="../js/gameRound2.js"></script>
+   <script type="text/javascript" src="../js/audio.js"></script>
+</html>

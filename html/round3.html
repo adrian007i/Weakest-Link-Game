@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel = "stylesheet" type = "text/css" href = "../css/styles.css"/>
+      <link rel="shortcut icon" href="../images/logo.jpg"/>
+      <title>Round 3</title>
+   </head>
+   <body>
+      <div id="container">
+         <div id="content" style="background-image:url('../images/gameBackground.png'); background-size:cover;">
+            <div id="moneyTree">
+               <br/>
+            </div>
+            <div id="questionArea"  style="padding-top:5%;">
+				<button type="button" id="audio" style="float:right;"><img src="../images/audioOn.png" id="on"/></button>	
+				<br/>
+			
+               <h1>Welcome to round 3 Play to win all the money in the bank</h1>
+               <h1>Answer Atlease 10 questions correct within 60seconds</h1>
+               <br/>
+               <hr/>
+               <br/>
+               <span style="border:solid white; padding:1%; color:white; font-size:30px; " id="bankDisplay">BANK: 0</span>
+               <h1>
+                  <div id="question"  style="padding-top:5%;"></div>
+               </h1>
+               <div id="ans">
+                  <span class="ans"></span><input type="radio" id="ans1" name="answer" value=""/>
+                  <span class="ans"></span><input type="radio" id="ans2" name="answer" value=""/>
+                  <span class="ans"></span><input type="radio" id="ans3" name="answer" value=""/><br/>
+                  <input type="button" id="submit_answer" value="lock In Answer"/>
+               </div>
+               <br/>
+               <span style="color:red; font-size:30px;" id="msg"></span>
+               <h3 id="rem">
+                  Time
+                  <div id="time"></div>
+               </h3>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="../js/gameRound3.js"></script>
+   <script type="text/javascript" src="../js/audio.js"></script>
+</html>
