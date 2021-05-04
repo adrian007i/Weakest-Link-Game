@@ -1,6 +1,14 @@
 # Weakest-Link-Game
-This JavaScript application is based on the real live game Weakest Link (Client side only, Uses cookies)
+A web based application to replicate the famous game "The weakest Link"The weakest link.
 
-* HTML 
-* CSS 
-* JavaScript
+## Features
+* Stages/levels
+* Timer
+* Random Questions
+* Highscore tracking
+
+
+Note:
+Project Type: Academic
+Year: 2016
+Lead: Adrian John
