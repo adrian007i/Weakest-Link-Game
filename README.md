@@ -9,6 +9,6 @@ A web based application to replicate the famous game "The weakest Link"
 
 
 Note:
-Project Type: Academic
-Year: 2016
-Lead: Adrian John
+* Project Type: Academic
+* Year: 2016
+& Lead: Adrian John
