@@ -1,5 +1,5 @@
 # Weakest-Link-Game
-A web based application to replicate the famous game "The weakest Link"The weakest link.
+A web based application to replicate the famous game "The weakest Link"
 
 ## Features
 * Stages/levels
